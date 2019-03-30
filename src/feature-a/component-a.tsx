@@ -8,7 +8,7 @@ export const ComponentAC = () => {
     const valueTest = getTest(String(updatedValueAC), 'check');
     return (
         <div>
-            Component A--FROM-BUGFIX-BRANCH-- {valueAC} --updated-- {valueTest}
+            Component A--{'FIX#6'}-FROM-BUGFIX-BRANCH-- {valueAC} --updated-- {valueTest}
         </div>
     );
 };
