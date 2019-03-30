@@ -5,7 +5,7 @@ export const ComponentA = ({ children }: { children: string }) => <div>Component
 export const ComponentAC = () => {
     const updatedValueAC = neededForFix(2);
     const valueAC = computeAC();
-    const valueTest = getTest(String(updatedValueAC));
+    const valueTest = getTest(String(updatedValueAC), 'check');
     return (
         <div>
             Component A--FROM-BUGFIX-BRANCH-- {valueAC} --updated-- {valueTest}
