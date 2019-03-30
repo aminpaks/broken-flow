@@ -1,1 +1,1 @@
-export const getTest = () => 'check-test';
+export const getTest = () => 'check-test-updated';

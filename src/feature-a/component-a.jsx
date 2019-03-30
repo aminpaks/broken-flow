@@ -4,7 +4,7 @@ export const ComponentA = () => {
     const testValue = getTest();
     return (
         <div>
-            Component A--{testValue}
+            Component A--{testValue}--updated
         </div>
     );
 };
