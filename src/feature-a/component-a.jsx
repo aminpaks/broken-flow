@@ -1,6 +1,6 @@
 import { getTest, neededForFix } from './util';
 
-export const Child = () => <span>OKAY</span>;
+export const Child = () => <span>OKAY--FIX#8</span>;
 
 export const ComponentA = () => {
     const updatedValueAC = neededForFix(2);
