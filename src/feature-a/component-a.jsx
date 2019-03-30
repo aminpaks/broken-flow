@@ -1,10 +1,11 @@
-import { getTest } from './util';
+import { getTest, neededForFix } from './util';
 
 export const ComponentA = () => {
-    const testValue = getTest();
+    const updatedValueAC = neededForFix(2);
+    const testValue = getTest(neededForFix);
     return (
         <div>
-            Component A--{testValue}--updated
+            Component A--FROM-BUGFIX-BRANCH--{testValue}--updated
         </div>
     );
 };
