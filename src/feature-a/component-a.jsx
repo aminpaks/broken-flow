@@ -5,7 +5,7 @@ export const ComponentA = () => {
     const testValue = getTest(updatedValueAC, 'check');
     return (
         <div>
-            Component A--FROM-BUGFIX-BRANCH--{testValue}--updated
+            Component A--{'FIX#6'}--FROM-BUGFIX-BRANCH--{testValue}--updated
         </div>
     );
 };
