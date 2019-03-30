@@ -4,4 +4,4 @@ export const computeAC = () => {
   return Array.from('1234567890', v => parseInt(v, 10) + seed);
 };
 
-export const getTest = () => 'check-test';
+export const getTest = () => 'check-test-updated';

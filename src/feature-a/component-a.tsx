@@ -7,7 +7,7 @@ export const ComponentAC = () => {
     const valueTest = getTest();
     return (
         <div>
-            Component AC -- {valueAC} -- {valueTest}
+            Component AC -- {valueAC} --updated-- {valueTest}
         </div>
     );
 };
